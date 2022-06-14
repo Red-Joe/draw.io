@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2022-06-14T06:53:14.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="3q8otHR-C_HyyvzGSJu2" version="20.0.1" type="github">
+  <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
+    <mxGraphModel dx="786" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="En8S0Vnn8ghYdVScyToz-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.management_console;fillColor=#D2D3D3;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="70" y="280" width="163" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="En8S0Vnn8ghYdVScyToz-4" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" parent="1" vertex="1">
+          <mxGeometry x="780" y="230" width="205.2" height="256.5" as="geometry" />
+        </mxCell>
+        <mxCell id="En8S0Vnn8ghYdVScyToz-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.001;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="En8S0Vnn8ghYdVScyToz-1" target="En8S0Vnn8ghYdVScyToz-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="330" as="sourcePoint" />
+            <mxPoint x="710" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En8S0Vnn8ghYdVScyToz-6" value="第一次请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="400" y="280" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="En8S0Vnn8ghYdVScyToz-7" value="响应报文携带Cookie，客户端得到报文后将Cookie内容保存在浏览器中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="220" y="340" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="En8S0Vnn8ghYdVScyToz-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.001;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="En8S0Vnn8ghYdVScyToz-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="440" as="sourcePoint" />
+            <mxPoint x="490" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="En8S0Vnn8ghYdVScyToz-10" value="客户端再一次访问该服务器时，浏览器取出Cookie并存放在请求报文首部" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="240" y="400" width="550" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="En8S0Vnn8ghYdVScyToz-11" value="Cookie的创建过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="320" y="170" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="En8S0Vnn8ghYdVScyToz-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;entryX=0.028;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="En8S0Vnn8ghYdVScyToz-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="388" as="sourcePoint" />
+            <mxPoint x="540" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
